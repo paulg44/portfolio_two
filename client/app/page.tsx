@@ -1,6 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
 import Navbar from "./ui/navbar";
+import Footer from "./ui/footer";
+import Hero from "./ui/home/hero";
+import ProjectsContainer from "./ui/home/projectsContainer";
 
 export default function Home() {
   return (
@@ -8,7 +9,11 @@ export default function Home() {
       <Navbar />
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <h1>Paul's Portfolio</h1>
+        <Hero />
       </main>
+      <ProjectsContainer />
+
+      <Footer />
     </div>
   );
 }
