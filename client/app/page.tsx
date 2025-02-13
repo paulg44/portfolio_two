@@ -1,7 +1,7 @@
-import Navbar from "./ui/navbar";
 import Footer from "./ui/footer";
 import Hero from "./ui/home/hero";
 import ProjectsContainer from "./ui/home/projectsContainer";
+import "./styles/global/variables.css";
 
 export default function Home() {
   return (

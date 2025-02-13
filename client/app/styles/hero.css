@@ -1,0 +1,6 @@
+.hero {
+  h1 {
+    font-size: 70px;
+    color: var(--orange);
+  }
+}
